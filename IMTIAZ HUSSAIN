@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Learn English with Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Improve Your English Skills Today!</h2>
+            <p>Join our online classes, learn English at your own pace.</p>
+            <a href="#courses" class="cta-btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>Beginner English</h3>
+                <p>Start learning the basics of English, perfect for beginners.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="course">
+                <h3>Intermediate English</h3>
+                <p>Improve your English with more advanced topics and vocabulary.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="course">
+                <h3>Advanced English</h3>
+                <p>Master English grammar, vocabulary, and conversation skills.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <h2>Learning Resources</h2>
+            <ul>
+                <li><a href="#">Grammar Lessons</a></li>
+                <li><a href="#">Vocabulary Lists</a></li>
+                <li><a href="#">Practice Quizzes</a></li>
+                <li><a href="#">Audio & Video Lessons</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Learn English Online. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
